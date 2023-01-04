@@ -19,6 +19,7 @@
 		A854BBBC296569580085DA35 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854BBBB296569580085DA35 /* Order.swift */; };
 		A854BBBE2965695F0085DA35 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = A854BBBD2965695F0085DA35 /* menu.json */; };
 		A854BBC0296578610085DA35 /* itemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854BBBF296578610085DA35 /* itemView.swift */; };
+		A854BBC2296591DC0085DA35 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854BBC1296591DC0085DA35 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		A854BBBB296569580085DA35 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		A854BBBD2965695F0085DA35 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		A854BBBF296578610085DA35 /* itemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemView.swift; sourceTree = "<group>"; };
+		A854BBC1296591DC0085DA35 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				A854BB8D296568D10085DA35 /* FoodiSwiftUIApp.swift */,
 				A854BB8F296568D10085DA35 /* ContentView.swift */,
+				A854BBC1296591DC0085DA35 /* DetailView.swift */,
 				A854BBBF296578610085DA35 /* itemView.swift */,
 				A854BBB7296569340085DA35 /* Helper.swift */,
 				A854BBB9296569500085DA35 /* Menu.swift */,
@@ -276,6 +279,7 @@
 				A854BB90296568D10085DA35 /* ContentView.swift in Sources */,
 				A854BB8E296568D10085DA35 /* FoodiSwiftUIApp.swift in Sources */,
 				A854BBBC296569580085DA35 /* Order.swift in Sources */,
+				A854BBC2296591DC0085DA35 /* DetailView.swift in Sources */,
 				A854BBC0296578610085DA35 /* itemView.swift in Sources */,
 				A854BBBA296569500085DA35 /* Menu.swift in Sources */,
 				A854BBB8296569340085DA35 /* Helper.swift in Sources */,
