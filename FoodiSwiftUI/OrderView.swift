@@ -11,7 +11,7 @@ struct OrderView: View {
     @EnvironmentObject var order : Order
     var body: some View {
         
-        if order.items.count == 0 {
+        if order.items.isEmpty{
             Text("NO Items Added Yet")
                 .fontWeight(.bold)
         } else{
@@ -25,15 +25,23 @@ struct OrderView: View {
                                 Text("$\(item.price)")
                             }
                         }
+                        .onDelete(perform: deleteItems)
                     }
                     Section{
                         NavigationLink("Place Order"){
                             CheckOutView()
                         }
-                    }.navigationTitle("Order")
+                    }
+                    .navigationTitle("Order")
+                    .toolbar {
+                        EditButton()
+                    }
                 }
             }
         }
+    }
+    func deleteItems(at offsets : IndexSet){
+        order.items.remove(atOffsets: offsets)
     }
 }
 
